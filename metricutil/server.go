@@ -2,9 +2,10 @@ package metricutil
 
 import (
 	"context"
-	"github.com/if-itb/siasn-idis-backend/libs/logutil"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"net/http"
+
+	"github.com/fazrithe/libs-backend/libs/logutil"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 type PrometheusServer struct {

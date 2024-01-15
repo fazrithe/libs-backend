@@ -2,9 +2,10 @@
 package breaker
 
 import (
-	"github.com/if-itb/siasn-idis-backend/libs/logutil"
 	"sync"
 	"time"
+
+	"github.com/fazrithe/libs-backend/libs/logutil"
 )
 
 // A circuit breaker based on error rate.
